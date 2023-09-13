@@ -1,14 +1,19 @@
-#include <stdio.h>
-#include <main.h>
-int main (void){
+#include "main.h"
 
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-
+/**
+ *  * main - Entry point
+ *   * Description: Print @c c_putchar.
+ *    * Return:0
+ *     */
+int main(void)
+{
+	char c[9] = "_putchar";
+	int i = 0;
+	while (i < 8)
+	{
+		_putchar(c[i]);
+		i++;
+	}
+	_putchar('\n');
+	return (0);
 }
