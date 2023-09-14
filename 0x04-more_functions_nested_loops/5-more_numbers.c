@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- *  * more_numbers - Prints more numbers
- *   * Return:void
- *    */
+*	* more_numbers - Prints more numbers
+*	* Return:void
+*	*/
 void more_numbers(void)
 {
-	    int i,j;
+int i,j;
 
-	        for(i = 0 ; i < 10 ; i++)
-			    {
-				            for(j = 0 ; j <= 14 ; j++)
-						            {
-								                _putchar(j);
-										        }
-					            _putchar('\n');
-						        }
+for (i = 0 ; i < 10 ; i++)
+{
+for (j = 0 ; j <= 14 ; j++)
+{
+_putchar(j);
+}
+_putchar('\n');
+}
 }
