@@ -1,10 +1,10 @@
 #include "main.h"
 
-/**
+/*
 *	* leet - Transform to leet
 *	* @s: char array string type
 *	* Return: s transformed
-*	*/
+	*/
 
 char *leet(char *s)
 {
